@@ -1,0 +1,1 @@
+../../../../Other Sources/ReactNative/Libraries/Settings/RCTSettingsManager.h

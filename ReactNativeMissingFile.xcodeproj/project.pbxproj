@@ -1,0 +1,394 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A8C8BFFE1E79B14B003656C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C8BFFD1E79B14B003656C7 /* main.m */; };
+		A8C8C0011E79B14B003656C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C8C0001E79B14B003656C7 /* AppDelegate.m */; };
+		A8C8C0041E79B14B003656C7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C8C0031E79B14B003656C7 /* ViewController.m */; };
+		A8C8C0071E79B14B003656C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8C8C0051E79B14B003656C7 /* Main.storyboard */; };
+		A8C8C0091E79B14B003656C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8C8C0081E79B14B003656C7 /* Assets.xcassets */; };
+		A8C8C00C1E79B14B003656C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8C8C00A1E79B14B003656C7 /* LaunchScreen.storyboard */; };
+		C18887E63A56751CEB6F070B /* libPods-ReactNativeMissingFile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 94F10413DDE2028155755092 /* libPods-ReactNativeMissingFile.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		94F10413DDE2028155755092 /* libPods-ReactNativeMissingFile.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNativeMissingFile.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AF90893969460A07B2C36D7 /* Pods-ReactNativeMissingFile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeMissingFile.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReactNativeMissingFile/Pods-ReactNativeMissingFile.release.xcconfig"; sourceTree = "<group>"; };
+		A8C8BFF91E79B14B003656C7 /* ReactNativeMissingFile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactNativeMissingFile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8C8BFFD1E79B14B003656C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A8C8BFFF1E79B14B003656C7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A8C8C0001E79B14B003656C7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A8C8C0021E79B14B003656C7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A8C8C0031E79B14B003656C7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A8C8C0061E79B14B003656C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A8C8C0081E79B14B003656C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A8C8C00B1E79B14B003656C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A8C8C00D1E79B14B003656C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B710C2687D5CAF794606BAAA /* Pods-ReactNativeMissingFile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeMissingFile.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReactNativeMissingFile/Pods-ReactNativeMissingFile.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8C8BFF61E79B14B003656C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C18887E63A56751CEB6F070B /* libPods-ReactNativeMissingFile.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A8C8BFF01E79B14B003656C7 = {
+			isa = PBXGroup;
+			children = (
+				A8C8BFFB1E79B14B003656C7 /* ReactNativeMissingFile */,
+				A8C8BFFA1E79B14B003656C7 /* Products */,
+				EB59600FB894B8F35253C830 /* Pods */,
+				BF635B4B059C8F4D15A151B3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A8C8BFFA1E79B14B003656C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8C8BFF91E79B14B003656C7 /* ReactNativeMissingFile.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8C8BFFB1E79B14B003656C7 /* ReactNativeMissingFile */ = {
+			isa = PBXGroup;
+			children = (
+				A8C8BFFF1E79B14B003656C7 /* AppDelegate.h */,
+				A8C8C0001E79B14B003656C7 /* AppDelegate.m */,
+				A8C8C0021E79B14B003656C7 /* ViewController.h */,
+				A8C8C0031E79B14B003656C7 /* ViewController.m */,
+				A8C8C0051E79B14B003656C7 /* Main.storyboard */,
+				A8C8C0081E79B14B003656C7 /* Assets.xcassets */,
+				A8C8C00A1E79B14B003656C7 /* LaunchScreen.storyboard */,
+				A8C8C00D1E79B14B003656C7 /* Info.plist */,
+				A8C8BFFC1E79B14B003656C7 /* Supporting Files */,
+			);
+			path = ReactNativeMissingFile;
+			sourceTree = "<group>";
+		};
+		A8C8BFFC1E79B14B003656C7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A8C8BFFD1E79B14B003656C7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BF635B4B059C8F4D15A151B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				94F10413DDE2028155755092 /* libPods-ReactNativeMissingFile.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB59600FB894B8F35253C830 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B710C2687D5CAF794606BAAA /* Pods-ReactNativeMissingFile.debug.xcconfig */,
+				9AF90893969460A07B2C36D7 /* Pods-ReactNativeMissingFile.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A8C8BFF81E79B14B003656C7 /* ReactNativeMissingFile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8C8C0101E79B14B003656C7 /* Build configuration list for PBXNativeTarget "ReactNativeMissingFile" */;
+			buildPhases = (
+				8E18FD91E47CF690DFDF2724 /* [CP] Check Pods Manifest.lock */,
+				A8C8BFF51E79B14B003656C7 /* Sources */,
+				A8C8BFF61E79B14B003656C7 /* Frameworks */,
+				A8C8BFF71E79B14B003656C7 /* Resources */,
+				14150CD41EF1F994EEF1B1C0 /* [CP] Embed Pods Frameworks */,
+				4F5EB063374233C1B579715E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReactNativeMissingFile;
+			productName = ReactNativeMissingFile;
+			productReference = A8C8BFF91E79B14B003656C7 /* ReactNativeMissingFile.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8C8BFF11E79B14B003656C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Joshua Feldman";
+				TargetAttributes = {
+					A8C8BFF81E79B14B003656C7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = WGQ2WKVLGE;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A8C8BFF41E79B14B003656C7 /* Build configuration list for PBXProject "ReactNativeMissingFile" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A8C8BFF01E79B14B003656C7;
+			productRefGroup = A8C8BFFA1E79B14B003656C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8C8BFF81E79B14B003656C7 /* ReactNativeMissingFile */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8C8BFF71E79B14B003656C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8C8C00C1E79B14B003656C7 /* LaunchScreen.storyboard in Resources */,
+				A8C8C0091E79B14B003656C7 /* Assets.xcassets in Resources */,
+				A8C8C0071E79B14B003656C7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14150CD41EF1F994EEF1B1C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReactNativeMissingFile/Pods-ReactNativeMissingFile-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F5EB063374233C1B579715E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReactNativeMissingFile/Pods-ReactNativeMissingFile-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E18FD91E47CF690DFDF2724 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8C8BFF51E79B14B003656C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8C8C0041E79B14B003656C7 /* ViewController.m in Sources */,
+				A8C8C0011E79B14B003656C7 /* AppDelegate.m in Sources */,
+				A8C8BFFE1E79B14B003656C7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A8C8C0051E79B14B003656C7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8C8C0061E79B14B003656C7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A8C8C00A1E79B14B003656C7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8C8C00B1E79B14B003656C7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A8C8C00E1E79B14B003656C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A8C8C00F1E79B14B003656C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A8C8C0111E79B14B003656C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B710C2687D5CAF794606BAAA /* Pods-ReactNativeMissingFile.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WGQ2WKVLGE;
+				INFOPLIST_FILE = ReactNativeMissingFile/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joshuafeldman.ReactNativeMissingFile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A8C8C0121E79B14B003656C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AF90893969460A07B2C36D7 /* Pods-ReactNativeMissingFile.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WGQ2WKVLGE;
+				INFOPLIST_FILE = ReactNativeMissingFile/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joshuafeldman.ReactNativeMissingFile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8C8BFF41E79B14B003656C7 /* Build configuration list for PBXProject "ReactNativeMissingFile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8C8C00E1E79B14B003656C7 /* Debug */,
+				A8C8C00F1E79B14B003656C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8C8C0101E79B14B003656C7 /* Build configuration list for PBXNativeTarget "ReactNativeMissingFile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8C8C0111E79B14B003656C7 /* Debug */,
+				A8C8C0121E79B14B003656C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A8C8BFF11E79B14B003656C7 /* Project object */;
+}
